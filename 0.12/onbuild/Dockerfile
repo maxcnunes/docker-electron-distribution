@@ -1,4 +1,4 @@
-FROM electron-distribution:0:12
+FROM maxcnunes/electron-distribution:0.12
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
